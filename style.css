@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+html {
+    background-color:#161616;
+    font-family: 'PT Mono', monospace;
+    scroll-behavior: smooth;
+}
+
+.main-content {
+    display:flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.main-description {
+    color:white;
+    width:40%;
+    position:relative;
+    top:8rem;
+    margin-bottom:8rem;
+    text-align: justify;
+    mix-blend-mode: difference;
+}
+
+.main-img {
+    position: fixed;
+    top:-32rem;
+    z-index:-1;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+}
+
+.main-img-content {
+    width:32rem;
+    height:128rem;
+    background-color:#ffffff;
+    transform: rotate(45deg)
+}
+
